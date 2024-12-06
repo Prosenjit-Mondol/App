@@ -1,0 +1,29 @@
+{
+  "name": "my-app",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "^7.0.4",
+    "@react-navigation/material-top-tabs": "^7.0.4",
+    "@react-navigation/native": "^7.0.3",
+    "@react-navigation/stack": "^7.0.3",
+    "axios": "^1.7.7",
+    "expo": "~52.0.7",
+    "expo-status-bar": "~2.0.0",
+    "react": "^18.3.1",
+    "react-native": "^0.76.2",
+    "react-native-html-to-text": "^0.0.5",
+    "react-native-tab-view": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
